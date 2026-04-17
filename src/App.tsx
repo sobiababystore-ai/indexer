@@ -365,7 +365,7 @@ export default function App() {
                       </tr>
                     </thead>
                     <tbody>
-                      {([...urls, ...discoveredUrls].map((url, i) => (
+                      ([...urls, ...discoveredUrls].map((url, i) => (
                         <tr key={url.url} className="hover:bg-[#fafbff] transition-colors">
                           <td className="px-6 py-3 border-b border-border-theme font-mono text-xs text-text-sub">{(i + 1).toString().padStart(3, '0')}</td>
                           <td className="px-6 py-3 border-b border-border-theme">
