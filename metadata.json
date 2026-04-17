@@ -1,0 +1,6 @@
+{
+  "name": "Sitemap Crawler & Indexer",
+  "description": "An automated tool to crawl XML sitemaps and request fresh indexing from Google Search Console using the Indexing API and Sitemap submission.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
